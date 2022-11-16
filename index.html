@@ -39,13 +39,13 @@
                             <a href="index.html">Home</a>
                         </li>
                         <li class="nav-item nav-about">
-                            <a href="pages/nosotros.html">Nosotros</a>
+                            <a href="links/nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item nav-noticias" >
-                            <a href="pages/noticias.html">Noticias</a>
+                            <a href="links/noticias.html">Noticias</a>
                         </li>
                         <li class="nav-item nav-compras" >
-                            <a href="pages/shop.html">Shop</a>
+                            <a href="links/shop.html">Shop</a>
                         </li>    
         
                         <li class="nav-item nav-social">
@@ -80,7 +80,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <a href="links/tierraLuna.html">
                                 <div class="card card-big text-bg-dark">
-                                    <img src="img/tierra-luna.jpg" class="card-img" alt="...">
+                                    <img src="img/tierra-luna.jpg" class="card-img" alt="tierra-luna">
                                     <div class="card-img-overlay">
                                         <div class="card-txt-container">
                                             <h5 class="card-title">De la tierra a la Luna</h5>
@@ -95,7 +95,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-10">
                                     <a href="#">
                                         <div class="card card-small text-bg-dark">
-                                            <img src="img/tierra-luna.jpg" class="card-img" alt="...">
+                                            <img src="img/sound-speedOfSound.jpg" alt="speedOfSound">
                                             <div class="card-img-overlay">
                                                 <div class="card-txt-container">
                                                     <h5 class="card-title">De la tierra a la Luna</h5>
@@ -108,7 +108,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-10">
                                     <a href="#">
                                         <div class="card card-small text-bg-dark">
-                                            <img src="img/tierra-luna.jpg" class="card-img" alt="...">
+                                            <img src="img/index-artemis.jpg" alt="artemis">
                                             <div class="card-img-overlay">
                                                 <div class="card-txt-container">
                                                     <h5 class="card-title">De la tierra a la Luna</h5>
@@ -123,7 +123,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-10">
                                     <a href="#">
                                         <div class="card card-small text-bg-dark">
-                                            <img src="img/tierra-luna.jpg" class="card-img" alt="...">
+                                            <img src="img/birdman.png" alt="birdman">
                                             <div class="card-img-overlay">
                                                 <div class="card-txt-container">
                                                     <h5 class="card-title">De la tierra a la Luna</h5>
@@ -151,40 +151,50 @@
                     </div>
                 </div>
 
-                <a class="article-button" href="links/noticias.html"  >
-                    <button type="button" class="btn btn-dark">
-                        Ver mas noticias
+                <a href="pages/noticias.html" class="link-btn">
+                    <button class="article-button art-index-btn" >
+                        <p>Ver mas noticias</p>
                     </button>
-                </a>    
+                </a>
             
             </section>
 
-            <!--Formulario
-            <section class="container formulario">
-                <div class="row">
-                    <div class="col">
-                        <form action="enviar.php" method="get" >
-                            <legend>Subscribite a nuestro newsletter para tener las ultimas noticias</legend>
-                            <div class="form-inputs">
-                                <label for="nombre" >Nombre</label>
-                                <input type="text" id="nombre" placeholder="Ingese su nombre">
-                
-                                <label for="mail">Email</label>
-                                <input type="email" id="mail" placeholder="Ingese su nombre">
-                
+            <!--Formulario-->
+            <section class="formulario">
+                <div class="container-fluid form-container">
+                    <form action="enviar.php" method="get" >
+                        <legend>Subscribite a nuestro newsletter para tener las ultimas noticias</legend>
+                        <div class="form-inputs">
+
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Usuario">
+                                <label class="form-floating-txt" for="floatingInput">Usuario</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label class="form-floating-txt" for="floatingInput">Email</label>
+                            </div>
+                            
+                            
+                            <div class="container-switch">
                                 <label for="noticias">Que noticias quere recibir?</label>
-                                Noticias del Espacio.<input type="checkbox" name="noticias" id="espacio">
-                                Noticias del Aire.<input type="checkbox" name="noticias" id="aire">
-                                Noticias del Futuro<input type="checkbox" name="noticias" id="futuro">
-                                <input class="submit-btn" type="submit" id="Enviar ahora">
-                            </div>       
-                        </form>
-                    </div>
-                    <div class="col">
-                        <img src="img/index-form-img.jpg" alt="We want you">
-                    </div>
+
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Exploracion espacial </label>
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Aviacion</label>
+                                </div>
+                            </div>
+
+                            <input class="submit-btn btn-form" type="submit" id="Enviar ahora">
+                        </div>       
+                    </form>
                 </div>
-            </section>-->
+            </section>
 
         </main>
 
