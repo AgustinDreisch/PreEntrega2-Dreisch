@@ -318,4 +318,146 @@ article h2{
     .article-txt-container p{
         display: none;
     }
+}
+/*=====TIERRALUNA.HTML========*/
+.article-titulo-container{
+    text-align: center;
+    margin: 60px 0 ;
+}
+.article-titulo-container h1{
+    font-size: 60px;
+}
+.article-titulo-container h2{
+    font-size: 40px;
+}
+.noticia-article h3{
+    font-size: 30px;
+    margin-left: 15%;
+    margin-bottom: 30px;
+}
+.noticia-article-container{
+    margin: 30px 10%;
+    display: flex;
+    align-items: center;
+}
+.noticia-article-container img{
+    border-radius: 30px;
+    width: 300px;
+}
+.noticia-article-container p{
+    margin: 40px;
+}
+.video-container{
+    text-align: center;
+}
 
+
+/*===========NOSOTROS=========*/
+.nosotros-banner h1{
+    font-size: 80px;
+    position: absolute;
+    top: 300px;
+    left: 30%;
+    z-index: 1;
+    color: #3f6afb;
+}
+.nosotros-banner{
+    width: 100%;
+    overflow: hidden;
+}
+.nosotros-banner img{
+    position: relative;
+    width: 100%;
+}
+.nosotros p{
+    margin: 50px 10%;
+    font-size: 30px;
+}
+
+.nosotros h2{
+    font-size: 50px;
+    text-align: center;
+}
+.nosotros h3{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+/*SHOP*/
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+.card-item{
+    width: 35%;
+    margin-right: 30px;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-item a{
+    text-decoration: none;
+}
+.card-item h3{
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+.card-item p{
+    text-align: center;
+    font-size: 15px;
+}
+.card-item img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card-item p{
+    margin: 0 20%;
+    color: #000;
+}
+.card-X4-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    box-shadow: none;
+}
+.small{
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    padding: 10px;
+}
+.small h3{
+    font-size: 20px;
+}
+.big:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.small:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.shop h1{
+    color: #011c49;
+}
+
+.shop-ofertas-container{
+    width: 70%;
+    margin: 30px 15%;
+    display: flex;
+}
+.shop-ofertas-container h4{
+    text-decoration: line-through;
+    color: red;
+    text-align: center;
+}
+.shop-ofertas h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+}
+.shop-items{
+    
+    width: 25%;
+}
